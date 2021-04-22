@@ -18,7 +18,7 @@
     }},
     "require": {
         "memio/model": "^2.0",
-        "php": "^7.0"
+        "php": "^7.0|^8.0"
     },
     "require-dev": {
         "friendsofphp/php-cs-fixer": "^2.10",
