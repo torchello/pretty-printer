@@ -16,12 +16,18 @@
     "autoload": { "psr-4": {
         "Memio\\PrettyPrinter\\": "src/Memio/PrettyPrinter"
     }},
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:torchello/model.git"
+        }
+    ],
     "require": {
-        "memio/model": "^2.0",
+        "memio/model": "dev-master",
         "php": "^7.0|^8.0"
     },
     "require-dev": {
         "friendsofphp/php-cs-fixer": "^2.10",
-        "phpspec/phpspec": "^4.3"
+        "phpspec/phpspec": "7.0"
     }
 }
